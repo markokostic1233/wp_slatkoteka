@@ -42,11 +42,11 @@
 <header id="masthead" class="site-header" >
      <div class="container sss">
             <div class="row header"> 
-            <div class="col-3 hamb">
-                   <a class="hamburger" id="hamburger">
-                      <i onclick="myFunction(this)" class="fa fa-bars"></i> <span class="for-menu"> meni </span>
-</a>   
-               </div>
+                  <div class="col-3 hamb">
+                      <a class="hamburger" id="hamburger">
+                         <i onclick="myFunction(this)" class="fa fa-bars"></i> <span class="for-menu"> meni </span>
+                      </a>   
+                  </div>
 			      <div id="logo-first" class="col-5 col-md-2">
                         <a href="#" class="custom-logo-link" rel="home" aria-current="page">
                            <img class="logo-sltkoteka" src="https:/slatkoteka/wp-content/uploads/2021/09/group-11.png" sizes="(max-width: 257px) 100vw, 257px">

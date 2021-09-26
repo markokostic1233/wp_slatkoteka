@@ -9,7 +9,7 @@ get_header();
         <div class="row">
            <div class="container">
                <div class="row">
-			      <div class="col-md-10">
+			      <div class="col-md-9">
 		     	      <div class="home-her-content-wrapper">
                            <h1 class="location">LOKACIJE</h1>
                            <p class="title-location">Savršen spoj ukusa i dekoracije koji za tebe izdvajaju naši krofnoslastičari. Vazdušasto testo smo prelili finom belom čokoladom, dok smo u središte najfinijeg zalogaja smestili kinder jaje ispunjeno kremastim kinder filom i sočnom jagodom.</p> 
@@ -17,7 +17,7 @@ get_header();
                   </div> 
                </div>
 			   <div class="row next">  
-			       <div class="col-md-2 sd"> 
+			       <div class="col-md-3 sd"> 
 					  <div class="home-her-content-wrapperS">
                          <p>  <span class="navs">  Početna >>  </span> Lokacije   </p>    
                       </div>   
@@ -78,13 +78,11 @@ get_header();
                                       </li>
                                     </ul>
                               </div>
-                        </div>
-
+                        </div>    
+                    </div>
                         <div class="ord">
                              <span class="text">*obavezno poručivanje unapred</span>
                         </div>
-                    </div>
-
                         <div class="for-images">
                             <div class="first"> 
                               <img src="https:/slatkoteka/wp-content/uploads/2021/09/rectangle-copy-8.png" alt="">
@@ -101,6 +99,7 @@ get_header();
                             <div class="fourth"> 
                               <img src="https:/slatkoteka/wp-content/uploads/2021/09/rectangle-copy-8.png" alt="">
                             </div>
+                            
                         </div>
                  </div>
                         <div class="col-md-5 map">
@@ -167,11 +166,13 @@ get_header();
                                           </li>
                                       </ul>
                                   </div>
-                               </div>
+                             </div>  
+                        </div>
+                        
                              <div class="ord">
                                 <span class="text">*obavezno poručivanje unapred</span>
                              </div>
-                        </div>
+                              
                           <div class="for-images">
                              <div class="first"> 
                                 <img src="https:/slatkoteka/wp-content/uploads/2021/09/rectangle-copy-8.png" alt="">
@@ -189,7 +190,7 @@ get_header();
                      </div>
                         <div class="col-md-5 map">
                             <div class="maps">
-                               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.045053682894!2d20.456508314925124!3d44.820646784174684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a654b4a8cca43%3A0x569d0e90aab3399c!2zVmnFoW5qacSHZXZhIDUsIEJlb2dyYWQ!5e0!3m2!1sen!2srs!4v1632491373310!5m2!1sen!2srs" width="428" height="421" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.67227908306!2d20.467749114924615!3d44.80786708501803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7aa403aa83d3%3A0x58b9d0065afc7e6!2sBulevar%20kralja%20Aleksandra%2052%2C%20Beograd!5e0!3m2!1sen!2srs!4v1632659118493!5m2!1sen!2srs" width="428" height="421" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                         </div>
                   </div>
@@ -223,16 +224,16 @@ get_header();
   <div class="row">
       <div class="container">
           <div class="row justify-content-center">
-                <h1>NEDOSTAJE SLATKOTEKA U VAŠEM GRADU?</h1>
+                <h1 class="nedostaje-slatkoteka">NEDOSTAJE SLATKOTEKA U VAŠEM GRADU?</h1>
           </div>
           <p class="new-title">Saznajte više o Slatkoteka franšizi <span class="ovde"> <a href="#">ovde.</a></span> </p>
       </div>
   </div>
 </div>
 
-<div class="container-fluid">   
-    <div class="row galery">
-        <div class="column">
+  
+    <div class="galery">
+        <div class="column firsts">
             <img src="https:/slatkoteka/wp-content/uploads/2021/09/rectangle-copy-31.png" >
             <img src=" https:/slatkoteka/wp-content/uploads/2021/09/rectangle-copy-32.png" >
         </div>
@@ -250,7 +251,7 @@ get_header();
 
         <div class="column">
            <img src="https:/slatkoteka/wp-content/uploads/2021/09/rectangle-copy-16.png" >
-           <img src="https://localhost/slatkoteka/wp-content/uploads/2021/09/rectangle-copy-17.png" >
+           <img src="https:/slatkoteka/wp-content/uploads/2021/09/rectangle-copy-17.png" >
            <img src="https:/slatkoteka/wp-content/uploads/2021/09/rectangle-copy-10.png" >
            <img src="https:/slatkoteka/wp-content/uploads/2021/09/rectangle-copy-18.png" >
        </div>  
@@ -260,8 +261,16 @@ get_header();
            <img src="https:/slatkoteka/wp-content/uploads/2021/09/rectangle-copy-11.png" >
            <img src="https:/slatkoteka/wp-content/uploads/2021/09/rectangle-copy-28.png" >
        </div> 
+
+       <div class="column last">
+           <img src="https:/slatkoteka/wp-content/uploads/2021/09/rectangle-copy-29.png" >
+           <img src="https:/slatkoteka/wp-content/uploads/2021/09/rectangle-copy-19.png" >
+           
+       </div>
   </div>
 </div>
+
+
 
   <div class="container-fluid reward">
       <div class="row">

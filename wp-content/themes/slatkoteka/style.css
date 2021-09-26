@@ -94,10 +94,9 @@ h1.location {
 }
 
 .container-fluid.home-hero-fluid {
-    background-position: bottom;
-    flex-direction: column;
+   
     padding-top: 78px;
-    justify-content: center;
+    
 }
 p.title-location {
     margin-bottom: 0px;
@@ -118,9 +117,10 @@ p.title-location {
 
 	display: inline-block;
 	margin: 0px;
-	padding-bottom: 13px;
+	padding-bottom: 11px;
  }
  a.pink {
+	padding: 3px 8px 1px 7px;
     background: #ffebf2;
 	border-radius: 3px;
 	font-size: 12.9px;
@@ -139,13 +139,11 @@ span.ovde {
 .column.fourth {
     height: 100%;
 }
-.row.galery {
-	display: -ms-flexbox; /* IE10 */
-  display: flex;
-justify-content:center;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 9px;
+
+
+.galery {
+    display: flex;
+    justify-content: center;
 }
 .column img {
 	margin-top: 8px;
@@ -155,12 +153,18 @@ justify-content:center;
   .container-fluid.reward {
     padding-top: 68px;
 }
+
+span.text { 
+
+	font-family: 'Varela Round', sans-serif;
+}
+
   .column {
     -ms-flex: 25%;
     display: grid;
 
     /* padding-bottom: 15px; */
-    margin: 7px;
+    margin: 8px;
 }
 
 .fourth-rectangle {
@@ -358,6 +362,7 @@ p.spec {
     width: 272px;
 }
 p.da-purucite {
+	margin-bottom: 14px;
 	font-family: 'Varela Round', sans-serif;
 	max-width: 458px;
     font-size: 14px;
@@ -437,7 +442,6 @@ span.ovde > a {
 }
 
 span.title {
-    width: 341px;
     font-size: 45px;
     line-height: 1.22;
     letter-spacing: 0.15px;
@@ -509,16 +513,23 @@ min-height: 485px;
 }
 
 a.blue-grey{
+	margin-left: 9px;
+    padding: 3px 7px 1px;
 	background: #e0c5ec;
 	border-radius: 3px;
 	font-size: 12.9px;
 }
  a.green {
+	font-family: 'Secular One', sans-serif;
+	margin-left: 9px;
+    padding: 3px 6px 1px 7px;
     background: #a3e8d6;
 	border-radius: 3px;
 	font-size: 12.9px;
 }
+
 a.yelow {
+	padding: 2px 7px 2px 6px;
     background: #fcfa96;
 	border-radius: 3px;
 	font-size: 12.9px;
@@ -661,6 +672,9 @@ ul>li>a:hover{
 	color: #000;
 	text-decoration: none;
 	font-style: normal;
+}
+h1.nedostaje-slatkoteka {
+    margin-bottom: 0px;
 }
 ul>li>a{
 	color: #000;
@@ -1064,6 +1078,7 @@ hr {
 	height: 1px;
 	margin-bottom: 1.5em;
 }
+
 
 .my-custom-menu {
     align-items: center;
@@ -1528,7 +1543,7 @@ textarea {
 }
 
 
-@media(max-width: 767px) {
+@media(max-width: 767px)/*MOBILE DEVICES*/ {
 
 	ul {
 		display: block;
@@ -1545,6 +1560,9 @@ textarea {
 		
 		max-width: 70%;
 		
+	}
+	.row.galery {
+		display: none;
 	}
 	.col-4.for-mobile{
 		display: flex;
@@ -1567,7 +1585,9 @@ textarea {
 		
 	}
 	.container-fluid.reward {
-		padding-top: 30px;
+		
+		padding-top: 0px;
+
 	}
 	.spec-for-rectangle {
 	
@@ -1581,7 +1601,14 @@ textarea {
 		 padding-top: 20px !important; 
 		
 	}
-    
+
+	span.title {
+		width: 100%;
+		padding-top: 10px;
+	}
+    ul#menu-menu-1 >li {
+		 padding-bottom: 0px;
+	}
 	.pink-background:before {
 		content: "";
 		position: absolute;
@@ -1590,7 +1617,7 @@ textarea {
 		display: block;
 		width: 100% !important;
 		max-width: 100% !important;
-		height: 100vh;
+		height: 85%;
 		 -webkit-transform: none !important;
 		-o-transform: rotate(-4deg);
 		 transform: none !important; 
@@ -1669,6 +1696,11 @@ textarea {
 	}
 	a#hamburger {
 		display: inline-grid;
+	}
+	a.blue-grey {
+		
+		 margin-left: 0px; 
+		
 	}
 	i.fa.fa-bars {
 		font-size: 35px;
@@ -1750,4 +1782,45 @@ textarea {
 		padding-top: 25px;
 		padding-bottom: 20px;
 	}
+}
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 1200px) and (orientation:portrait) 
+	/*TABLET DEVICES*/
+{
+
+	ul {
+	
+		justify-content: flex-end;
+		margin: auto;
+	}
+
+	.i-contnet {
+		font-size: 19px;
+	}
+
+
+	.container-fluid.home-hero-fluid {
+		 padding-top: 40px; 
+	}
+	ul>li>a {
+		
+		font-size: 12px;
+		
+	}
+
+	.col-md-7.location {
+		padding-top: 20px;
+	
+		padding-left: 20px;
+	}
+
+	span.title {
+		width: 100%;
+		font-size: 35px;
+		;
+	}
+	ul > li {
+		margin-left: 10px;
+	}
+	
 }
